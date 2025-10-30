@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4 text-[#E56B46]">IES 2026</h3>
             <p className="text-gray-300 leading-relaxed">
-              10th International Engineering Symposium bringing together
+              10<sup>th</sup> International Engineering Symposium bringing together
               researchers and innovators from around the world.
             </p>
           </div>

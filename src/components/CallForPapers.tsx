@@ -26,7 +26,7 @@ const CallForPapers = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#E56B46] to-[#A23E3A] mx-auto mb-8"></div>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            The 10th International Engineering Symposium (IES 2026) invites
+            The 10<sup>th</sup> International Engineering Symposium (IES 2026) invites
             contributions from researchers, scientists, and academicians across
             diverse fields of engineering, technology, and applied sciences.
           </p>

@@ -80,7 +80,7 @@ const Hero = () => {
       {/* Main Content */}
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto mt-5 animate-fadeIn">
         <h1 className="text-xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight animate-slideUp">
-          10th International Engineering Symposium
+          10<sup>th</sup>International Engineering Symposium
         </h1>
 
         <div
