@@ -10,7 +10,7 @@ const Contact = () => {
       flag: "🇯🇵",
       email: "torii@kurume-it.ac.jp",
       phone: "+81 8052628896",
-      profile: "/torii.jpg",
+      profile: "/tori.jpg",
     },
     {
       name: "Prof. Katta Venkataramana",
@@ -53,7 +53,7 @@ const Contact = () => {
       flag: "🇮🇳",
       email: "satyan.nitk@gmail.com",
       phone: "+91 99648 10960",
-      profile: "/satyanarayan.jpg",
+      profile: "/satyanarayana.jpg",
     },
   ];
 
