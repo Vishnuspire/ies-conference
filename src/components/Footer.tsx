@@ -10,8 +10,8 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4 text-[#E56B46]">IES 2026</h3>
             <p className="text-gray-300 leading-relaxed">
-              10<sup>th</sup> International Engineering Symposium bringing together
-              researchers and innovators from around the world.
+              10<sup>th</sup> International Engineering Symposium bringing
+              together researchers and innovators from around the world.
             </p>
           </div>
 
@@ -63,6 +63,12 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <Mail className="w-5 h-5 flex-shrink-0 mt-1 text-[#E56B46]" />
                 <div>
+                  <a
+                    href="mailto:torii@kurume-it.ac.jp"
+                    className="block hover:underline"
+                  >
+                    torii@kurume-it.ac.jp
+                  </a>
                   <a
                     href="mailto:katta@nitk.edu.in"
                     className="block hover:underline"
