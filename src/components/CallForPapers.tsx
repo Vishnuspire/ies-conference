@@ -12,8 +12,8 @@ const CallForPapers = () => {
   ];
 
   const timeline = [
-    { date: "October 31, 2025", event: "Abstract Submission Deadline" },
-    { date: "November 7, 2025", event: "Acceptance Notification" },
+    { date: "November 10, 2025", event: "Abstract Submission Deadline" },
+    { date: "November 15, 2025", event: "Acceptance Notification" },
     { date: "December 15, 2025", event: "Full Paper Submission" },
   ];
 
@@ -26,9 +26,10 @@ const CallForPapers = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#E56B46] to-[#A23E3A] mx-auto mb-8"></div>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            The 10<sup>th</sup> International Engineering Symposium (IES 2026) invites
-            contributions from researchers, scientists, and academicians across
-            diverse fields of engineering, technology, and applied sciences.
+            The 10<sup>th</sup> International Engineering Symposium (IES 2026)
+            invites contributions from researchers, scientists, and academicians
+            across diverse fields of engineering, technology, and applied
+            sciences.
           </p>
         </div>
 
@@ -84,6 +85,12 @@ const CallForPapers = () => {
               </p>
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 space-y-2">
                 <div className="font-semibold">Email to:</div>
+                <a
+                  href="mailto:torii@kurume-it.ac.jp"
+                  className="block hover:underline"
+                >
+                  torii@kurume-it.ac.jp
+                </a>
                 <a
                   href="mailto:katta@nitk.edu.in"
                   className="block hover:underline"

@@ -85,7 +85,7 @@ const Contact = () => {
                 <img
                   src={person.profile}
                   alt={person.name}
-                  className="w-24 h-24 rounded-full object-cover mb-4 border-4 border-[#E56B46]/60"
+                  className="w-28 h-28 rounded-full object-cover mb-4 border-4 border-[#E56B46]/60"
                 />
                 <div className="text-center">
                   <h4 className="text-xl font-bold text-[#091F4E] mb-1">
@@ -127,7 +127,7 @@ const Contact = () => {
               <img
                 src={coConveners[0].profile}
                 alt={coConveners[0].name}
-                className="w-24 h-24 rounded-full object-cover border-4 border-[#E56B46]/60"
+                className="w-28 h-28 rounded-full object-cover border-4 border-[#E56B46]/60"
               />
               <div className="text-center sm:text-left">
                 <h4 className="text-xl font-bold text-[#091F4E] mb-1">
