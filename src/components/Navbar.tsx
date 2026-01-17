@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,10 +32,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-[#091F4E] shadow-lg' : 'bg-transparent'
-    }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="kk-header-wrapper">
+      <nav className={`kk-navbar transition-all duration-300 ${
+        isScrolled ? 'bg-[#091F4E] shadow-lg' : 'bg-transparent'
+      }`}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="bg-white rounded-lg p-2 flex items-center">
             <img src='/logo.png' className="w-20 text-white"/>
@@ -76,7 +78,20 @@ const Navbar = () => {
           </div>
         </div>
       )}
-    </nav>
+      </nav>
+      
+      {/* Announcement Ticker */}
+      <div className="kk-announcement-ticker" role="banner" aria-label="Important announcement">
+        <div className="kk-ticker-content">
+          <span className="kk-ticker-text">
+            Proceedings of 10th International Engineering Symposium will be published with ISBN Number : 978-93-5525-122-0
+          </span>
+          <span className="kk-ticker-text">
+            Proceedings of 10th International Engineering Symposium will be published with ISBN Number : 978-93-5525-122-0
+          </span>
+        </div>
+      </div>
+    </div>
   );
 };
 

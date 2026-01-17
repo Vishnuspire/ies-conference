@@ -60,12 +60,14 @@ const Hero = () => {
             "/vtu.png",
             "/alva.png",
             "/logo.png",
+            "/nitk.png",
             "/k.png",
             "/vjoc.png",
             "/vishnu.png",
             "/vtu.png",
             "/alva.png",
             "/logo.png",
+             "/nitk.png",
           ].map((imgSrc, idx) => (
             <img
               key={idx}

@@ -10,6 +10,11 @@
   body {
     @apply font-sans antialiased;
   }
+
+  /* Account for sticky header (navbar + ticker) */
+  main {
+    margin-top: 0;
+  }
 }
 
 @layer utilities {
