@@ -8,6 +8,7 @@ const proceedings = [
   { year: 2018, file: "/previous/IES-2018-Proceedings.pdf" },
   { year: 2019, file: "/previous/IES-2019-Proceedings.pdf" },
   { year: 2020, file: "/previous/IES-2020-Proceedings.pdf" },
+  { year: 2026, file: "/previous/IES-2026-Proceedings.pdf" },
 ];
 
 const IESProceedings = () => {
