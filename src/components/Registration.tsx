@@ -41,13 +41,13 @@ const Registration = () => {
             </div>
             <div className="space-y-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                <div className="text-4xl font-bold text-[#E56B46] mb-2">¥40,000</div>
+                <div className="text-4xl font-bold text-[#E56B46] mb-2">¥50,000</div>
                 <div className="text-lg opacity-90">Japanese Yen</div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-[#E56B46] flex-shrink-0 mt-1" />
-                  <span>4-night accommodation (March 2-5, 2026)</span>
+                  <span>4-night accommodation (March 2-5, 2027)</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-[#E56B46] flex-shrink-0 mt-1" />
@@ -70,7 +70,7 @@ const Registration = () => {
                 <div className="flex items-start gap-3">
                   <FileText className="w-5 h-5 flex-shrink-0 mt-1" />
                   <p className="text-sm">
-                    Payment accepted in cash at the registration desk on March 3, 2026
+                    Payment accepted in cash at the registration desk on March 3, 2027
                   </p>
                 </div>
               </div>
