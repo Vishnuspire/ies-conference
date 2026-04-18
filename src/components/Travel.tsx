@@ -41,7 +41,7 @@ const Travel = () => {
             <div className="space-y-4">
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
                 <div className="font-semibold mb-2">Included in Registration</div>
-                <p>4-night accommodation (March 2-5, 2026)</p>
+                <p>4-night accommodation (March 2-5, 2027)</p>
               </div>
               <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4">
                 <div className="font-semibold mb-2">Location</div>
