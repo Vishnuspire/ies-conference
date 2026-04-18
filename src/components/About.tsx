@@ -25,7 +25,7 @@ const About = () => {
   }, [hasAnimated]);
 
   const animateCounters = () => {
-    const targets = { edition: 10, participants: 300, institutions: 7, countries: 15 };
+    const targets = { edition: 11, participants: 300, institutions: 7, countries: 15 };
     const duration = 2000;
     const steps = 60;
     const increment = duration / steps;
