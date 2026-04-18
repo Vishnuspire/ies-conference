@@ -82,21 +82,21 @@ const Hero = () => {
       {/* Main Content */}
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto mt-5 animate-fadeIn">
         <h1 className="text-xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight animate-slideUp">
-          10<sup>th</sup>International Engineering Symposium
+          11<sup>th</sup>International Engineering Symposium
         </h1>
 
         <div
           className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-[#E56B46] mb-4 animate-slideUp"
           style={{ animationDelay: "0.2s" }}
         >
-          IES 2026
+          IES 2027
         </div>
 
         <p
           className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-6 animate-slideUp"
           style={{ animationDelay: "0.4s" }}
         >
-          March 3–5, 2026 | Kurume Institute of Technology, Japan
+          March 3–5, 2027 | Kurume Institute of Technology, Japan
         </p>
 
         <p
