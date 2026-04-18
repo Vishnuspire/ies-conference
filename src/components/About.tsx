@@ -102,8 +102,8 @@ const About = () => {
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               With the objective of continuing the interaction initiated between the researchers during these symposia,
-              it is now planned to conduct the <span className="font-semibold text-[#091F4E]">10<sup>th</sup> International Engineering Symposium (IES 2026)</span> during
-              March 3-5, 2026 at Kurume Institute of Technology, Japan.
+              it is now planned to conduct the <span className="font-semibold text-[#091F4E]">11<sup>th</sup> International Engineering Symposium (IES 2026)</span> during
+              March 3-5, 2027 at Kurume Institute of Technology, Japan.
             </p>
             <div className="bg-gradient-to-r from-[#091F4E] to-[#A23E3A] text-white p-6 rounded-xl text-center">
               <p className="text-xl font-semibold italic">
