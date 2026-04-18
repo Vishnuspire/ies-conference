@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-[#E56B46]">IES 2026</h3>
+            <h3 className="text-2xl font-bold mb-4 text-[#E56B46]">IES 2027</h3>
             <p className="text-gray-300 leading-relaxed">
-              10<sup>th</sup> International Engineering Symposium bringing
+              11<sup>th</sup> International Engineering Symposium bringing
               together researchers and innovators from around the world.
             </p>
           </div>
