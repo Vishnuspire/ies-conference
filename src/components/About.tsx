@@ -98,7 +98,7 @@ const About = () => {
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               The International Engineering Symposia (IES2011 to IES2020) were organized very successfully at
               <span className="font-semibold text-[#091F4E]"> Kumamoto University</span> during 2011 to 2020 with
-              hundreds of participants from India, Japan, Indonesia, Thailand, Taiwan, Vietnam and other countries.
+              hundreds of participants from India, Japan, Indonesia, Thailand, Taiwan, Vietnam and other countries. The 10th IES 2026 was successfully organized at Kurume Institute of Technology, Kurume, Fukuoka, Japan during March 3-5, 2026 in collaboration with Vishnu Japan Outreach Centre (VJOC), Sri Vishnu Educational Society (SVES), India; UBDT College of Engineering, Karnataka, India; and Alva's Institute of Engineering & Technology, India.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               With the objective of continuing the interaction initiated between the researchers during these symposia,

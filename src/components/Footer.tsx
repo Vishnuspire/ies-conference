@@ -150,10 +150,10 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © 2026 International Engineering Symposium. All rights reserved.
+              © 2027 International Engineering Symposium. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm">
-              March 3-5, 2026 | Kurume, Fukuoka, Japan
+              March 3-5, 2027 | Kurume, Fukuoka, Japan
             </p>
           </div>
         </div>

@@ -55,6 +55,16 @@ const Contact = () => {
       phone: "+91 99648 10960",
       profile: "/satyanarayana.jpg",
     },
+    {
+      name: "Dr. Manjunath R",
+      role: "Co-Convener",
+      institution: "Dept. of Civil Engineering, BMS College of Engineering, Bangalore",
+      country: "India",
+      flag: "🇮🇳",
+      email: "manjunathr.civ@bmsce.ac.in",
+      phone: "+91 81972 03686",
+      profile: "/manjunath.jpg",
+    },
   ];
 
   return (

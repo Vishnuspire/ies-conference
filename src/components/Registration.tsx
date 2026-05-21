@@ -42,7 +42,9 @@ const Registration = () => {
             <div className="space-y-6">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                 <div className="text-4xl font-bold text-[#E56B46] mb-2">¥50,000</div>
-                <div className="text-lg opacity-90">Japanese Yen</div>
+                <div className="text-lg opacity-90">Japanese Yen (Academicians & Industrialists)</div>
+                <div className="text-4xl font-bold text-[#E56B46] mt-4 mb-2">¥40,000</div>
+                <div className="text-lg opacity-90">Japanese Yen (Students)</div>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">

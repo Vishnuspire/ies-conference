@@ -64,7 +64,7 @@ const Schedule = () => {
                   <Calendar className="w-6 h-6" />
                   <h3 className="text-2xl font-bold">{day.day}</h3>
                 </div>
-                <div className="text-white/90">2026</div>
+                <div className="text-white/90">2027</div>
               </div>
 
               <div className="p-6 space-y-6">

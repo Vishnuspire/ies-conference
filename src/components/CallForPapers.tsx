@@ -12,9 +12,9 @@ const CallForPapers = () => {
   ];
 
   const timeline = [
-    { date: "November 10, 2025", event: "Abstract Submission Deadline" },
-    { date: "November 15, 2025", event: "Acceptance Notification" },
-    { date: "December 15, 2025", event: "Full Paper Submission" },
+    { date: "July 31, 2026", event: "Abstract Submission Deadline" },
+    { date: "August 15, 2026", event: "Acceptance Notification" },
+    { date: "September 30, 2026", event: "Full Paper Submission" },
   ];
 
   return (
