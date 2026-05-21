@@ -36,9 +36,8 @@ const Hero = () => {
         {slides.map((slide, index) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentSlide ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? "opacity-100" : "opacity-0"
+              }`}
           >
             <img
               src={slide}
@@ -150,7 +149,7 @@ const Hero = () => {
             className="flex items-center justify-center gap-2 px-4 py-2 bg-[#E56B46] text-white rounded-lg  text-base sm:text-lg hover:bg-[#A23E3A] transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             <Scroll className="w-5 h-5" />
-            IES 2027 Brochure
+            leaflet
           </a>
         </div>
       </div>
