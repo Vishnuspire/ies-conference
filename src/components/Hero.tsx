@@ -1,4 +1,4 @@
-import { Calendar, ChevronDown, FileText, Pencil, Scroll } from "lucide-react";
+import { Calendar, FileText, Pencil, Scroll } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-32 pb-12">
       {/* Background Slides */}
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
@@ -51,7 +51,7 @@ const Hero = () => {
       </div>
 
       {/* Partner Logos */}
-      <div className="relative z-20 mt-16 bg-white/90 backdrop-blur-md px-6 py-3 rounded-xl shadow-md w-[90%] max-w-2xl overflow-hidden">
+      <div className="relative z-20 mt-12 bg-white/90 backdrop-blur-md px-6 py-3 rounded-xl shadow-md w-[90%] max-w-2xl overflow-hidden">
         <div className="animate-scroll flex justify-center items-center gap-10">
           {[
             "/k.png",
@@ -61,13 +61,15 @@ const Hero = () => {
             "/alva.png",
             "/logo.png",
             "/nitk.png",
+            "/bms.jpg",
             "/k.png",
             "/vjoc.png",
             "/vishnu.png",
             "/vtu.png",
             "/alva.png",
             "/logo.png",
-             "/nitk.png",
+            "/nitk.png",
+            "/bms.jpg",
           ].map((imgSrc, idx) => (
             <img
               key={idx}
@@ -135,12 +137,20 @@ const Hero = () => {
             Call for Papers
           </button>
           <a
-            href="/broucher.pdf"
+            href="/brochure.jpeg"
             download
             className="flex items-center justify-center gap-2 px-4 py-2 bg-white text-[#091F4E] rounded-lg  text-base sm:text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             <Scroll className="w-5 h-5" />
-            Broucher
+            Brochure
+          </a>
+          <a
+            href="/brochure.pdf"
+            download
+            className="flex items-center justify-center gap-2 px-4 py-2 bg-[#E56B46] text-white rounded-lg  text-base sm:text-lg hover:bg-[#A23E3A] transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            <Scroll className="w-5 h-5" />
+            IES 2027 Brochure
           </a>
         </div>
       </div>

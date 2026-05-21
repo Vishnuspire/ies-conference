@@ -38,6 +38,13 @@ const Organizers = () => {
       country: 'INDIA',
       flag: '🇮🇳',
       logo: '/alva.png'
+    },
+    {
+      name: 'B.M.S. College of Engineering',
+      location: 'Bangalore, Karnataka',
+      country: 'INDIA',
+      flag: '🇮🇳',
+      logo: '/bms.jpg'
     }
   ];
 
@@ -51,7 +58,7 @@ const Organizers = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#E56B46] to-[#A23E3A] mx-auto mb-8"></div>
         </div>
-
+ 
         {/* Main Organizer */}
         <div className="mb-16">
           <h3 className="text-2xl font-bold text-[#E56B46] text-center mb-8">Main Organizer</h3>
@@ -82,7 +89,7 @@ const Organizers = () => {
           <h3 className="text-2xl font-bold text-[#E56B46] text-center mb-8">
             In Association With
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {partners.map((partner, index) => (
               <div
                 key={index}
