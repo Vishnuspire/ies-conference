@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import IESProceedings from './components/IESProceedings';
 
+
 function App() {
   return (
     <div className="min-h-screen">
